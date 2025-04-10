@@ -18,7 +18,7 @@ export const itemApi = createApi({
 			})
 		}),
 
-		//GET - Получить все item
+		//GET-Получить все item
 		allItems: builder.query({
 			query: (data) => ({
 				url: '/all',
